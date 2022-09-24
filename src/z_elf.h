@@ -2,6 +2,7 @@
 #define Z_ELF_H
 
 #include <elf.h>
+#include <linux/auxvec.h>
 
 #if ELFCLASS == ELFCLASS64
 #  define Elf_Ehdr	Elf64_Ehdr
